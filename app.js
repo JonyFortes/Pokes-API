@@ -7,7 +7,7 @@ var express         = require("express"),
 		mongoose        = require('mongoose');
 
 // Connection to DB
-mongoose.connect('mongodb+srv://jony:jony123@pokemon-nsvyr.mongodb.net/test?retryWrites=true&w=majority', function(err, res) {
+mongoose.connect('mongodb+srv://jony:jony123@pokemon-nsvyr.mongodb.net/pokemones?retryWrites=true&w=majority', function(err, res) {
   if(err) throw err;
   console.log('Connected to Database');
 });
