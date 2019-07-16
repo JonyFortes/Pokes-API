@@ -23,4 +23,4 @@ imagen: { type: String },
 });
 
 
-module.exports = mongoose.model('Pokemones', pokemonSchema);
+module.exports = mongoose.model('Pokemon', pokemonSchema,'pokemones');
